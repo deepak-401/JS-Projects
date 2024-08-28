@@ -1,0 +1,48 @@
+body{
+    background-color: gray;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+label{
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+button{
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: aqua;
+    height: 30px;
+    width: 110px;
+    font-size: 15px;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 10px;
+}
+#weight_guide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-weight: 600;
+    font-size: 20px;
+}
+#results{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+#reply{
+    font-size: 30px;
+    color:white;
+    font-weight: 700;
+}
